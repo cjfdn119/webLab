@@ -1,0 +1,63 @@
+body{
+	font-family: "Arial", "Georgia", sans-serif;
+	color: #8ED4E6;
+	background-color: #4051B5;
+	background-image: url("./cse326bg.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+h1{
+	color: #91D8C2;
+	text-align: center;
+}
+h2{
+	font-size: 1.8em;
+	color: #91D8C2;
+}
+ol{
+	list-style-type: lower-greek;
+}
+dt{
+	font-weight: bold;
+}
+dl{
+	font-size: 75%;
+	color: #FDFD1B;
+}
+ins{
+	color: #10FF10;
+	text-decoration: none;
+}
+ins:hover{
+	font-weight: bold;
+}
+del{
+	color: #FF3636;
+}
+table, td, th{
+	border: solid
+}
+table{
+	border-collapse: collapse;
+}
+tr:last-child{
+	background-color: white;
+}
+caption{
+	text-align: right;
+}
+strong{
+	text-shadow: -2px 2px #ACACAC;
+}
+img{
+	width: 300px;
+	height: 300px;
+}
+a img{
+	width: auto;
+	height: auto;
+}
+p:first-letter {
+	font-weight: bold;
+	font-size: 150%;
+}
