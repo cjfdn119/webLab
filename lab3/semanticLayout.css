@@ -11,6 +11,11 @@ body{
 h1{
 	text-align: center;
 }
+#h1name{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
 header{
 	background-color: #8E8E8E;
 	color: white;
@@ -47,11 +52,9 @@ aside{
 	border-radius: 15px;
 	background-color: #3366CC;
 }
-#linklist{
-	color: orange;
-}
 
-* * * :not(section):hover{
+
+* * * :not(section):not(article):not(header):not(aside):hover{
 	background-color: #ffff00;
 }
 

@@ -47,11 +47,9 @@ h2{
 	border-radius: 15px;
 	background-color: #3366CC;
 }
-#linklist{
-	color: orange;
-}
 
-* * * :not(.jean_border):hover{
+
+* * * :not(div):hover{
 	background-color: #ffff00;
 }
 
