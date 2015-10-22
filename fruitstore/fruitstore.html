@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fruit Store</title>
+		<link href="http://selab.hanyang.ac.kr/courses/cse326/2015/problems/pResources/gradestore.css" type="text/css" rel="stylesheet" />
+	</head>
+	
+	<body>
+		<h1>Fruit Store</h1>
+
+		<p>
+			Fruit has been recognized as a good source of vitamins and minerals, and for their role in preventing vitamin C and vitamin A deficiencies. 
+			Let's buy fruits instead of grades!
+		</p>
+		
+		<hr />
+		
+		<h2>Buy Fresh Fruit today!</h2>
+		
+		<!-- create an HTML Form -->
+		<form action="file:///D:/MAMP/htdocs/fruitstore/customer.php" method="post">
+			Name: <input type="text" name="name" size="10" maxlength="8" />
+			Mebership Number: <input type="text" name="mem-number" size="10" maxlength="8" /> <br/>
+			
+			Options: 
+				<input type="checkbox" name="organic" /> Organic
+				<input type="checkbox" name="domestic" /> Domestically Produced
+				<input type="checkbox" name="genetical"/> Genetically Modified
+				<input type="checkbox" name="newly" /> Newly Harvested
+			<br/>
+			Fruits: 
+			<select name="fruits" size="1" multiple="multiple">
+				<option>Apple</option>
+				<option>Melon</option>
+				<option>Strawberry</option>
+				<option>Orange</option>
+			</select>
+			Quantity:
+			<select name="quantity" size="1" multiple="multiple">
+				<option>5</option>
+				<option>4</option>
+				<option>3</option>
+				<option>2</option>
+				<option>1</option>
+			</select> <br/>
+			Credit Card: <input type="text" size="10" maxlength="8" />
+				<input type="radio" name="cc" value="visa"/>Visa
+				<input type="radio" name="cc" value="mastercard"/>MasterCard
+	
+			<div id="submitbutton">
+				<!-- create submit button here -->
+				<input type="submit" value="I like fruits!"/>
+			</div>
+		</form>
+	</body>
+</html>
